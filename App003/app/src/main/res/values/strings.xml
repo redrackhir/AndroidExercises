@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">App003</string>
+    <string name="quiz0">Are you an extraterrestrian?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="quiz1">Do we live in a satellite?</string>
+    <string name="quiz2">Is 2 an even number?</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+</resources>

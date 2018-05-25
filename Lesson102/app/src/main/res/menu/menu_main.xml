@@ -1,0 +1,96 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mmut.lesson102.MainActivity">
+    <item
+        android:id="@+id/action_comandes_direct"
+        android:icon="@drawable/red_pin"
+        android:orderInCategory="100"
+        android:title=""
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_cfg"
+        android:orderInCategory="100"
+        android:title="@string/action_cfg"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_cfg_clients"
+                android:orderInCategory="100"
+                android:title="@string/action_cfg_clients"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_cfg_factures"
+                android:orderInCategory="100"
+                android:title="@string/action_cfg_clients"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_cfg_comandes"
+                android:orderInCategory="100"
+                android:title="@string/action_cfg_clients"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_comandes"
+        android:orderInCategory="100"
+        android:title="@string/action_comandes"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_new_comanda"
+                android:orderInCategory="110"
+                android:title="@string/action_new"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_view_comanda"
+                android:orderInCategory="110"
+                android:title="@string/action_view"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_factures"
+        android:orderInCategory="100"
+        android:title="@string/action_factures"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_new_factura"
+                android:orderInCategory="110"
+                android:title="@string/action_new"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_view_factura"
+                android:orderInCategory="110"
+                android:title="@string/action_view"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_clients"
+        android:orderInCategory="100"
+        android:title="@string/action_clients"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/action_new_client"
+                android:orderInCategory="110"
+                android:title="@string/action_new"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/action_view_client"
+                android:orderInCategory="110"
+                android:title="@string/action_view"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+
+</menu>

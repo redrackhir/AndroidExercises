@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lesson10.2</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clients">Clients</string>
+    <string name="action_cfg_clients">Config. clients</string>
+    <string name="action_factures">Factures</string>
+    <string name="action_config">Configuració</string>
+    <string name="action_comandes">Comandes</string>
+    <string name="action_cfg">Configuració</string>
+    <string name="action_new_comanda">Crear</string>
+    <string name="action_new">Crear</string>
+    <string name="action_view">Consultar</string>
+</resources>
